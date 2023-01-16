@@ -1,0 +1,12 @@
+.erreur{
+ animation:  montre 0.5s ;
+}
+
+@keyframes montre {
+    from{
+       margin-left: -30px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
