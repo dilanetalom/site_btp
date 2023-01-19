@@ -4,21 +4,23 @@ import { FaPhone } from 'react-icons/fa'
 import { FaLocationArrow, FaFacebook, FaWhatsapp, FaInstagram, FaTwitter } from 'react-icons/fa'
 import logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
+import { useTranslation } from "react-i18next"
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <div className=' w-full  relative'>
       {/* <img src={const4} alt="" className='absolute w-full h-full object-cover object-center' /> */}
       <div className='w-full bg-black  px-10 lg:px-32 pt-10 pb-10 absolute opacity-90'>
         <div className='lg:flex w-full pt-10 pb-10 border-b border-white space-y-5 lg:space-y-0'>
           <div className='lg:w-1/2  text-white'>
-            <h1 className='text-3xl'>Inscription à la newsletter</h1>
-            <p>Soyez informé des mises à jour soyez le premier à accéder en avant-première aux nouveaux épisodes</p>
+            <h1 className='text-3xl'>{t('inscription')}</h1>
+            <p>{t('inscription_info')}</p>
           </div>
           <div className='md:w-1/2 lg:pl-10'>
             <div className='w-full h-14 border border-white rounded-full flex p-1' >
-              <input type="text" className='w-4/6 pl-5  pr-5  text-white rounded-full h-full bg-black' placeholder='Entrer votre email' />
-              <button className='h-full w-2/6 rounded-full bg-white '>Souscrire</button>
+              <input type="text" className='w-4/6 pl-5  pr-5  text-white rounded-full h-full bg-black' placeholder={t('entre_email')} />
+              <button className='h-full w-2/6 rounded-full bg-white '>{t('souscrire')}</button>
             </div>
           </div>
         </div>
@@ -49,16 +51,16 @@ function Footer() {
             </div>
           </div>
           <div className='text-white md:w-1/4 md:pl-5 space-y-6'>
-            <h1 className='lg:text-xl text-base'>Liens Rapides</h1>
+            <h1 className='lg:text-xl text-base'>{t('lien_rapide')}</h1>
             <ul className='space-y-3 lg:text-base md:text-xs text-sm'>
-            <li className=''><Link to="/" className='a focus:text-red-500'>Accueil</Link></li>
-              <li><Link to="/about" className='a focus:text-red-500'>Qui Sommes-nous ?</Link></li>
-              <li><Link to="/service" className='a focus:text-red-500'>Nos Services</Link></li>
-              <li><Link to="" className='a focus:text-red-500'>Nos Réalisations</Link></li>
+            <li className=''><Link to="/" className='a focus:text-red-500'>  {t('acceuil')}</Link></li>
+              <li><Link to="/about" className='a focus:text-red-500'>{t('qui_somme')}</Link></li>
+              <li><Link to="/service" className='a focus:text-red-500'>{t('services')}</Link></li>
+              <li><Link to="/realisation" className='a focus:text-red-500'>{t('realisation')}</Link></li>
             </ul>
           </div>
           <div className='text-white md:w-1/4 space-y-6'>
-            <h1 className='text-xl'>Réseaux</h1>
+            <h1 className='text-xl'>{t('reseau')}</h1>
             <div className='flex space-x-2'>
                    <a href="" className='w-8 h-8 rounded-full bg-white hover:bg-red-200 flex items-center'>
                     <FaFacebook color='orange' className='mx-auto'/>
@@ -76,8 +78,8 @@ function Footer() {
           </div>
         </div>
         <div className=' w-full pt-5  md:flex'>
-          <p className='uppercase text-white text-xs'>@ 2023, tous les droits sont réservés | garcin tp</p>
-          <p className='uppercase text-white text-xs absolute md:right-32'>dévéloppé par nylstech digital</p>
+          <p className='uppercase text-white text-xs'>{t('droit')}</p>
+          <p className='uppercase text-white text-xs absolute md:right-32'>{t('dev_par')}</p>
         </div>
 
       </div>

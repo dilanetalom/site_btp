@@ -4,12 +4,14 @@ import SmallSection from '../Component/SmallSection'
 import Footer from '../Partial/Footer/Footer'
 import Contact from './Contact/Contact'
 import Service from './Service/Service'
+import { useTranslation } from "react-i18next"
 
 function Services() {
+  const { t } = useTranslation();
   return (
     <>
          <SmallSection 
-         title="Nos Services"
+         title={t('services')}
          />
          <Service/>
          <Localisation />

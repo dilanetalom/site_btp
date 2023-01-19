@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@hookform/resolvers": "^2.9.10",
+    "@tolgee/i18next": "^5.0.0",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.42.0",
+    "react-i18next": "^12.1.4",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.3.0"
   },

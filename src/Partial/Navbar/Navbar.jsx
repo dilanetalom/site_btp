@@ -4,6 +4,7 @@ import logo from '../../assets/images/logo.png'
 import open from '../../assets/images/open.png'
 import close from '../../assets/images/Close.png'
 import { Link } from 'react-router-dom'
+import { useTranslation } from "react-i18next"
 import './Navbar.css'
 
 function Navbar() {
@@ -14,6 +15,8 @@ function Navbar() {
   function closes() {
     setOpen(true)
   }
+  
+  const { t } = useTranslation();
   return (
     <div className='w-full fixed lg:relative z-50'>
       <div className='w-full  lg:py-3 py-2 lg:px-32 px-10 flex items-center navbar absolute bg-black '>
@@ -23,16 +26,16 @@ function Navbar() {
           </div>
           <div className='lg:w-4/6 w-0 h-full flex items-center invisible lg:visible'>
             <ul className='w-5/6 flex  lg:space-x-8 text-base  text-white navbar'>
-              <li className=''><Link to="/" className='a focus:text-red-500'>Accueil</Link></li>
-              <li><Link to="/about" className='a focus:text-red-500'>Qui Sommes-nous ?</Link></li>
-              <li><Link to="/service" className='a focus:text-red-500'>Nos Services</Link></li>
-              <li><Link to="" className='a focus:text-red-500'>Nos Réalisations</Link></li>
+              <li className=''><Link to="/" className='a focus:text-red-500'>  {t('acceuil')}</Link></li>
+              <li><Link to="/about" className='a focus:text-red-500'>{t('qui_somme')}</Link></li>
+              <li><Link to="/service" className='a focus:text-red-500'>{t('services')}</Link></li>
+              <li><Link to="/realisation" className='a focus:text-red-500'>{t('realisation')}</Link></li>
             </ul>
             <div className='w-1/6'>
               <Link to="/contact">
                 <ButtonComponent
                   class='white'
-                  text="CONTACTEZ-NOUS"
+                  text={t('contact_us')}
                 />
               </Link>
             </div>
@@ -55,7 +58,7 @@ function Navbar() {
               <li className=''><Link to="/" className='a focus:text-red-500'>Accueil</Link></li>
               <li><Link to="/about" className='a focus:text-red-500'>Qui Sommes-nous ?</Link></li>
               <li><Link to="/service" className='a focus:text-red-500'>Nos Services</Link></li>
-              <li><Link to="" className='a focus:text-red-500'>Nos Réalisations</Link></li>
+              <li><Link to="/realisation" className='a focus:text-red-500'>Nos Réalisations</Link></li>
               <li><Link to="/contact" className='a focus:text-red-500'>Contact</Link></li>
             </ul>
           </div> : ''
