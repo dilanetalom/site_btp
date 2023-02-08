@@ -5,3 +5,11 @@
 .section .section__img{
     height: 80vh;
 }
+
+.text{
+    color: var(--text_red);
+}
+
+.section{
+    height: 80vh;
+}

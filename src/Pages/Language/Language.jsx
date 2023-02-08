@@ -11,7 +11,7 @@ function Language() {
   };
 
   return (
-    <div>
+    <div className="">
       <a href="#menu__drop" id="deroule">
         {language === "fr" ? (
           <>

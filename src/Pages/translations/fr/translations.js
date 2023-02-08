@@ -13,23 +13,25 @@ export const TRANSLATIONS_FR = {
   reseau:"Réseaux",
   ouvert:"Ouvert de Lundi à Vendredi",
   savoir:"NOTRE SAVOIR FAIRE",
-  apropos:"Construire sa propre maison, c’est un projet de toute une vie ! Que vous souhaitiez offrir une qualité de vie meilleure à votre famille, préparer votre retraite ou tout simplement placer votre argent dans une valeur sûre comme la pierre, faites en sorte que votre projet soit une véritable réussite. Offrez-vous la maison de vos rêves au style moderne ou authentique qui invite à des rassemblements chaleureux. Pour cela, confiez l’ensemble de vos travaux de construction à un spécialiste en bâtiment sur le Bassin Méditerranéen : Agir et Avenir. Forts d’expérience en construction et rénovation dans le bâtiment, nous répondons aussi bien aux attentes des professionnels (collectivités, mairies, hôtels, maisons de retraite, entreprises du secteur tertiaire) et particuliers. Des travaux de gros œuvre aux travaux de finition, nous assurons le succès de la construction de votre maison, de A à Z. N’hésitez pas à nous faire part de votre projet en nous appelant du lundi au vendredi de 9h à 18h.",
-  titre_service:"GARCIN TP veille à la satisfaction totale des clients qui nous accordent leur confiance. C’est la raison pour laquelle notre entreprise tout corps de métier se spécialise dans différents domaines d’activité. Nous prenons en charge toutes les étapes de votre construction de maison.",
-  titre1:"Construction",
-  titre2:"Electricité",
-  titre3:"Plombérie",
-  servicetitle1:"Le gros œuvre reste le pilier d’un projet de construction de maison neuve. Il englobe, en effet, les travaux qui soutiennent la construction et qui garantissent sa solidité et sa stabilité. Des travaux de soubassement au terrassement en passant par les fondations de la maison, l’élévation des murs, la charpente ou encore la toiture, cette étape tient une importance capitale. D’où la nécessité d’y accorder plus d’attention. Pour entrevoir l’avenir sous un jour meilleur, confiez vos travaux de gros œuvre à un professionnel comme Agir et Avenir. Nous réalisons chaque phase de la construction selon les règles de l’art, pour vous offrir une maison solide, design, stable et adaptée à vos besoins. Nous pourrons intervenir aussi bien en travaux d’extension qu’en construction neuve.",
-  servicetitle2:"Que ce soit pour vous éclairer, pour cuisiner, pour faire fonctionner vos appareils électroniques, pour réaliser vos tâches ménagères ou pour vous fournir de l’eau chaude, l’électricité est toujours indispensable. De l’installation à la mise aux normes de votre système électrique, en passant par le dépannage électrique, contactez-nous. Nous mettons à votre disposition un artisan réactif et sérieux pour assurer votre sécurité et votre confort.",
-  servicetitle3:"Pose de compteur d’eau, installation de la robinetterie, de la tuyauterie, des équipements sanitaires, raccordement d’eau, pose de chaudière et de ballon d’eau chaude… Les travaux de plomberie permettent d’optimiser le confort à l’intérieur de votre nouvelle maison. Autant dire qu’ils méritent toute votre attention. Faites appel à notre spécialiste pour tout prendre en charge dans le meilleur délai et avec efficacité. Notre spécialiste s’occupera également de l’entretien et du dépannage de la plomberie, surtout en cas de fuite, de bouchage des sanitaires ou de panne de chaudière ou de ballon d’eau chaude.",
+  apropos:"est une société de prestation de services de droit camerounais crée par des professionnel expérimentés et issus des plus grandes écoles de formation aussi bien camerounaises que françaises. L’objectif de cette société est d’offrir des services de qualité dans le domaine du génie civil.Le succès du projet de ses clients et au juste prix est la préoccupation majeure de MASTER ENTREPRISE d’où sa devise « la qualité au juste prix ».",
+  titre_service:"MASTER ENTREPRISE veille à la satisfaction totale des clients qui nous accordent leur confiance. C’est la raison pour laquelle notre entreprise tout corps de métier se spécialise dans différents domaines d’activité. Nous prenons en charge toutes les étapes de votre construction de maison.",
+  titre1:"La réalisation du gros œuvre",
+  titre2:"La conception des plans de maisons et ouvrages divers de Génie Civil",
+  titre3:"Dimensionnement de structures en béton armé",
+  servicetitle1:"Remplissage en maçonnerie et crépissage intérieurs & extérieur ; Carrelage ; Peinture bâtiment et staff ; Plomberie et sanitaires ; Électricité et climatisation ; Pose des appareils d’épuration des déchets ménagers en PVC armés de la laine de verre ; Pose des faux plafonds en lambris polymère plastiques et aussi bien d’autres.",
+  servicetitle2:"Les études de conception visent à obtenir un avis d’expert indépendant et impartial concernant des projets sélectionnés et faire en sorte que de maximiser la qualité de l’ouvrage final. L’équipe des services de soutien technique est responsable de procéder aux études de conception.",
+  servicetitle3:"Le béton armé est un matériau composite, constitué de béton et d’armatures en acier de section circulaire qui sont « noyées » dans la masse du béton. Le « mariage » des 2 matériaux permet d’optimiser les forces de ses 2 composants : la résistance du béton en compression et la résistance de l’acier en traction.",
   // big  section 
 
   en_savoir_plus:"EN SAVOIR PLUS",
   contactez_nous:"CONTACTEZ-NOUS",
-  droit:" @2023, TOUS LES DROITS SONT RÉSERVÉS | GARCIN TP",
+  droit:" @2023, TOUS LES DROITS SONT RÉSERVÉS | MASTER ENTREPRISE",
   dev_par:"DÉVÉLOPPÉ PAR NYLSTECH DIGITAL",
+  section_titre:"La Qualité au juste prix chez",
   about:"A props de nous",
   erreur:"Erreur 404",
   exist:"Cette page n'existe pas",
+  section_description:" Quel que soit votre projet, notre équipe de professionnels met ses compétences et son savoir-faire à votre service , De la construction à la rénovation de bâtiments, nous pouvons intervenir rapidement et vous proposer un devis adapter à vos besoins.",
 
   // title translate
 
@@ -44,12 +46,41 @@ telephone:"Téléphone",
 message:"Entrer votre message ici ...",
 envoie:"Envoyer le message",
 souscrire:"Souscrire",
-
+siege:"Siège social : Douala-cameroun",
 
 // newsletter
 
 inscription:"Inscription à la newsletter ",
 entre_email:"Entrer votre email",
 inscription_info:"Soyez informé des mises à jour soyez le premier à accéder en avant-première aux nouveaux épisodes",
+societe:"Société de prestation de services",
+// realisation
+
+quelque:"QUELQUES REALISATIONS DE MASTER ENTREPRISE",
+quelque_description:" compte à son actif à ce jour une multitude de projets déjà réalisés à travers l’ensemble du territoire national.",
+real1:"Conception et réalisation d’un Duplex clé à main à Douala Dogbong",
+real2:"CONSTRUCTION D’UNE MINOTERIE MODERE AU PORT DE DOUALA",
+real3:"CONSTRUCTION D’UN SILLOT EN BETON ARME (port de Douala)",
+real4:"CONSTRUCTION D’ANTENNE DE TELEOHONIE MOBILE AU NORD CAMEROUN",
+real5:"Station photovoltaïque",
+real6:"Coffrage et ferraillage radier",
+lireplus:"LIRE PLUS",
+qualite:"Qualité",
+hygene:"Hygiène",
+securite:"Sécurité",
+environ:"Environnement",
+somme:"Notre savoir être",
+value:"Nos Valeurs",
+outre:"Outre la phase du gros œuvre nous offrons un service de qualité exceptionnel dans la phase du second œuvre entre autres :",
+outre1:"Électricité et climatisation",
+outre2:"Carrelage",
+outre3:"Peinture bâtiment et staff",
+outre4:"Plomberie et sanitaires",
+outre5:"Remplissage en maçonnerie et crépissage intérieurs & extérieur",
+outre6:"Pose des appareils d’épuration des déchets ménagers en PVC armés de la laine de verre",
+outre7:"Pose des faux plafonds en lambris polymère plastiques et aussi bien d’autres.",
 
 };
+
+
+

@@ -1,7 +1,12 @@
+.header{
+   z-index: 9999;
+   background-color: red;
+}
 .navbar li .a::before{
    content:'';
    position: absolute;
-   background-color: red;
+   background-color: var(--text_red);
+   /* background-color: red; */
    height: 2px;
    width:0px;
    margin-top:25px;

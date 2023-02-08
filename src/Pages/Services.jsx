@@ -5,6 +5,7 @@ import Footer from '../Partial/Footer/Footer'
 import Contact from './Contact/Contact'
 import Service from './Service/Service'
 import { useTranslation } from "react-i18next"
+import Values from './Values/Values'
 
 function Services() {
   const { t } = useTranslation();
@@ -14,6 +15,7 @@ function Services() {
          title={t('services')}
          />
          <Service/>
+         <Values />
          <Localisation />
          <Contact />
          <Footer />

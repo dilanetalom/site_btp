@@ -13,7 +13,7 @@ function Home() {
          <Section />
          <About />
          <Service />
-         {/* <Values /> */}
+         <Values />
          <Localisation />
          <Contact /> 
          <Footer />

@@ -25,7 +25,14 @@ function Footer() {
           </div>
         </div>
         <div className=' w-full md:flex pt-10 border-b border-white pb-5 space-y-8 md:space-y-0'>
-          <div className='md:w-1/4'><img src={logo} alt="" className='lg:w-40 lg:h-36 w-28 h-24' /></div>
+          <div className='md:w-1/4 space-y-2'>
+            <div className='bg-white lg:w-40 w-28 h-28  p-1 rounded-t-full flex items-center'>
+            <img src={logo} alt="" className='lg:w-40 lg:h-28 w-28 h-24 margin-auto' />
+            </div>
+            <p className='text-white text-xs'>{t('societe')}</p>
+
+            
+            </div>
           <div className=' md:w-1/4 space-y-6'>
             <h1 className='lg:text-xl text-base text-white'>Contact</h1>
             <div className='space-y-3'>
@@ -33,20 +40,20 @@ function Footer() {
                 <div className='lg:w-8 lg:h-8 w-0 h-0 bg-gray-200 rounded-full flex items-center invisible lg:visible '>
                   <img src={email} alt="" className='mx-auto' />
                 </div>
-                <p className='text-white  text-sm md:text-xs lg:text-sm'>dilanetalom8@gmail.com</p>
+                <p className='text-white  text-sm md:text-xs lg:text-sm'>masterentreprise@gmail.com</p>
               </span>
 
               <span className='flex lg:space-x-3 items-center'>
                 <div className='lg:w-8 lg:h-8 w-0 h-0 bg-gray-200 rounded-full flex items-center invisible lg:visible '>
                   <FaPhone className='mx-auto' />
                 </div>
-                <p className='text-white lg:text-sm md:text-xs text-sm'>690 841 749</p>
+                <p className='text-white lg:text-sm md:text-xs text-sm'>00237 675 524 243</p>
               </span>
               <span className='flex lg:space-x-3 items-center'>
                 <div className='lg:w-8 lg:h-8 w-0 h-0 bg-gray-200 rounded-full flex items-center invisible lg:visible '>
                   <FaLocationArrow className='mx-auto' />
                 </div>
-                <p className='text-white md:text-xs lg:text-sm text-sm'> rue de la Chantepierre, 13800 Istres</p>
+                <p className='text-white md:text-xs lg:text-sm text-sm'>  Siège social : Douala-cameroun</p>
               </span>
             </div>
           </div>
