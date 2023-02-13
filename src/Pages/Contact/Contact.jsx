@@ -62,8 +62,8 @@ function Contact() {
                               <div>
                                    <p> {t('siege')}</p>
                                    <p className=''>BP : 37 74 Douala</p>
-                                   <p className=''>RC : RC /DLN/2017/A/1907 </p>
-                                   <p className=''>NO CONT : P078312651765Z </p>
+                                   {/* <p className=''>RC : RC /DLN/2017/A/1907 </p>
+                                   <p className=''>NO CONT : P078312651765Z </p> */}
                               </div>
                          </span>
                     </div>
