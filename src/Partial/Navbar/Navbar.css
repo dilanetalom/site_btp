@@ -16,13 +16,20 @@
 .navbar li:hover .a::before{
    width:50px;
 }
-.drop {
-   width: 200px;
+/* .drop {
+   width: 250px;
    height: 100vh;
-   animation: drops 0.5s;
+   /* animation: drops 0.5s; */
+   /* background-color: blue;
+   transition: all  0.5s ease-out;
+} */ */
+.sidebar_custom{
+   width: 250px;
+   height: 100vh;
+   transition: all 0.5s ease-out;
 }
 
-@keyframes drops {
+/* @keyframes drops {
    from{
     width: 0px;
     height: 0px;
@@ -31,7 +38,7 @@
 width: 200px;
 height: 100vh;
    }
-}
+} */
 
 /* @media screen and (max-width:1023px) {
     .navbar{

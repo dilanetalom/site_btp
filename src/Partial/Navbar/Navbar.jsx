@@ -56,8 +56,8 @@ function Navbar() {
       {
 
         (!opent) ?
-          <div className='visible lg:invisible drop  bg-black text-white top-0  z-50 fixed'>
-            <ul className='pl-5 h-2/3 space-y-5 pt-16 font-semibold '>
+          <div className='visible lg:invisible drop  bg-black  sidebar_custom text-white top-0  z-50 fixed'>
+            <ul className='pl-5 h-2/3 space-y-8 pt-16  '>
               <li className=''><Link to="/" className='a focus:text-red-500'>Accueil</Link></li>
               <li><Link to="/about" className='a focus:text-red-500'>Qui Sommes-nous ?</Link></li>
               <li><Link to="/service" className='a focus:text-red-500'>Nos Services</Link></li>

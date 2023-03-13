@@ -11,10 +11,10 @@ function Section() {
   return (
     <div className='relative w-full section '>
       <img src={const1} alt="" className='absolute w-full h-full object-cover object-center animate-pulse' />
-      <div className='absolute w-full h-full bg-black opacity-75'>
+      <div className='absolute w-full h-full  opacity-75 sidebar'>
         <Navbar />
         <div className='w-full h-4/5 lg:pl-32 pl-10 pr-10 md:pr-0 md:flex'>
-          <div className='lg:w-1/2 w-full flex flex-col lg:space-y-8 md:space-y-5 space-y-6 mt-20 lg:mt-28 '>
+          <div className='lg:w-1/2 w-full flex flex-col lg:space-y-8 md:space-y-5 space-y-6 mt-20 lg:mt-40 '>
             <h1 className='lg:text-4xl text-3xl  text-white mt-14' data-aos="fade-up"
               data-aos-anchor-placement="center-center" data-aos-duration="1500">{t('section_titre')} <br></br><span className='text'> MASTER ENTREPRISE</span></h1>
             <p className='text-white text-xs md:text-base lg:text-xl' data-aos="fade-up"

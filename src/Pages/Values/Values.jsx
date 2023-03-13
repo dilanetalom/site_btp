@@ -10,7 +10,7 @@ function Values() {
 
   return (
     <div className=''>
-    <div className='lg:px-32 px-10 pt-10 pb-10'>
+    {/* <div className='lg:px-32 px-10 pt-10 pb-10'>
         <p className='text-gray-200 text-center md:text-left'> {t('somme')}</p>
         <h1 className='text-4xl text-center md:text-left'>{t('value')}</h1>
      
@@ -29,7 +29,7 @@ function Values() {
             />
 
         </div>
-      </div>
+      </div> */}
 
       </div>
   )
